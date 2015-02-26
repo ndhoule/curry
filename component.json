@@ -1,0 +1,16 @@
+{
+  "name": "curry",
+  "repo": "ndhoule/curry",
+  "version": "1.0.0",
+  "description": "Wrap a function in a function that will repeatedly return a new wrapper function until all expected arguments have been provided.",
+  "keywords": [
+  ],
+  "license": "MIT",
+  "scripts": ["index.js"],
+  "dependencies": {
+    "ndhoule/arity": "^1.0.0"
+  },
+  "development": {
+    "mochajs/mocha": "^2.1.0"
+  }
+}

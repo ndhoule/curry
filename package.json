@@ -1,0 +1,31 @@
+{
+  "name": "curry",
+  "version": "1.0.0",
+  "description": "Wrap a function in a function that will repeatedly return a new wrapper function until all expected arguments have been provided.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndhoule/curry.git"
+  },
+  "keywords": [
+    "component"
+  ],
+  "author": "Nathan Houle <nathan@nathanhoule.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndhoule/curry/issues"
+  },
+  "homepage": "https://github.com/ndhoule/curry",
+  "dependencies": {
+    "arity": "git://github.com/ndhoule/arity.git#1.0.0"
+  },
+  "devDependencies": {
+    "esformatter-braces": "^1.0.0",
+    "esformatter-quotes": "^1.0.0",
+    "esformatter-semicolons": "^1.0.3",
+    "eslint": "^0.15.0",
+    "jsfmt": "^0.4.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  }
+}
