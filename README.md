@@ -1,4 +1,4 @@
-# curry [![Circle CI][circleci-badge]][circleci-link]
+# curry [![CI][ci-badge]][ci-link]
 
 Wrap a function in a function that will repeatedly return a new wrapper function until all expected arguments have been provided.
 
@@ -39,5 +39,5 @@ sumArray([1, 2, 3]);
 
 Released under the [MIT license](LICENSE.md).
 
-[circleci-link]: https://circleci.com/gh/ndhoule/curry
-[circleci-badge]: https://circleci.com/gh/ndhoule/curry.svg?style=svg&circle-token=21bef10df8d3683fd42d12d162a9c5011884503e
+[ci-link]: https://travis-ci.org/ndhoule/curry
+[ci-badge]: https://travis-ci.org/ndhoule/curry.svg?branch=master
