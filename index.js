@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var arity = require('arity');
+var arity = require('@ndhoule/arity');
 
 /**
  * Object.prototype.toString reference.
