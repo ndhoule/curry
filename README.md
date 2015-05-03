@@ -4,16 +4,9 @@ Wrap a function in a function that will repeatedly return a new wrapper function
 
 ## Installation
 
-Browser:
-
 ```sh
-component install ndhoule/curry
-```
-
-Node:
-
-```sh
-$ npm install curry
+$ component install ndhoule/curry
+$ npm install @ndhoule/curry
 ```
 
 ## API
