@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ndhoule/curry",
   "dependencies": {
-    "arity": "git://github.com/ndhoule/arity.git#1.0.0"
+    "arity": "^1.0.2"
   },
   "devDependencies": {
     "esformatter-braces": "^0.1.7",
