@@ -1,7 +1,7 @@
 {
   "name": "curry",
   "repo": "ndhoule/curry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrap a function in a function that will repeatedly return a new wrapper function until all expected arguments have been provided.",
   "keywords": [
   ],
