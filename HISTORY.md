@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Fix Duo compatibility
+
 ## 1.0.1
 
 - Update Makefile
