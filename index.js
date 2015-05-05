@@ -4,7 +4,8 @@
  * Module dependencies.
  */
 
-var arity = require('@ndhoule/arity');
+// XXX: Hacky fix for Duo not supporting scoped modules
+var arity; try { arity = require('@ndhoule/arity'); } catch(e) { arity = require('arity'); }
 
 /**
  * Object.prototype.toString reference.
