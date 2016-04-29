@@ -1,15 +1,10 @@
 'use strict';
 
-/**
+/*
  * Module dependencies.
  */
 
-// XXX: Hacky fix for Duo not supporting scoped modules
-var arity; try { arity = require('@ndhoule/arity'); } catch(e) { arity = require('arity'); }
-
-/**
- * Object.prototype.toString reference.
- */
+var arity = require('@ndhoule/arity');
 
 var objToString = Object.prototype.toString;
 
@@ -21,7 +16,6 @@ var objToString = Object.prototype.toString;
  * @param {*} val The value to test.
  * @return {boolean} Returns `true` if `val` is a number, otherwise `false`.
  */
-
 // TODO: Move to library
 var isNumber = function isNumber(val) {
   var type = typeof val;
@@ -38,7 +32,6 @@ var isNumber = function isNumber(val) {
  * @param {Array} previousArgs
  * @return {Function}
  */
-
 var wrapCurry = function wrapCurry(func, remainingArity, previousArgs) {
   return arity(remainingArity, function(/* newArgs */) {
     var newArgs = Array.prototype.slice.call(arguments);
@@ -75,7 +68,6 @@ var wrapCurry = function wrapCurry(func, remainingArity, previousArgs) {
  * sumArray([1, 2, 3]);
  * //=> 6
  */
-
 var curry = function curry(func, arity) {
   if (typeof func !== 'function') {
     throw new TypeError('Expected a function but got ' + typeof func);
@@ -86,7 +78,7 @@ var curry = function curry(func, arity) {
   return wrapCurry(func, arity, []);
 };
 
-/**
+/*
  * Exports.
  */
 
