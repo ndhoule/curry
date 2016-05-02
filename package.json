@@ -1,6 +1,6 @@
 {
   "name": "@ndhoule/curry",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Wrap a function in a function that will repeatedly return a new wrapper function until all expected arguments have been provided.",
   "main": "index.js",
   "repository": {
